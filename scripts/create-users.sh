@@ -12,7 +12,7 @@ groupadd quality;
 ################################################################################
 # Add users to groups
 ################################################################################
-useradd -G applications admin;
+useradd -G applications,hdfs admin;
 useradd -G development dev1;
 useradd -G development dev2;
 useradd -G quality qa1;
